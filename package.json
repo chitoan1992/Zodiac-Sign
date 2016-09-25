@@ -1,5 +1,6 @@
 {
   "name": "Zodiac-Sign",
+  "author": "Chi Toan chitoan.1992@gmail.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,8 +17,7 @@
 {
 	"type": "MIT",
 	"url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
-},
-  "author": "Chi Toan",
+},  
   "devDependencies": {
 	"eslint": "^3.5.0",
 	"mocha": "^3.0.2",
