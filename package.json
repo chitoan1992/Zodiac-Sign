@@ -1,18 +1,27 @@
 {
-  "name": "@risingstack/node-hero",
+  "name": "Zodiac Sign",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-	"test": "node_modules/istanbul/lib/cli.js cover node_modules/.bin/_mocha",
-	"coveralls": "cat coverage/lcov.info | node_modules/.bin/coveralls",
-    "start": "mocha index.js"
+	"scripts": {
+	"lint": "eslint",
+	"test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha",
+	"coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
+	"repository": {
+	"type": "git",
+	"url": "git+https://github.com/uplinkhacker1992/Zodiac-Sign"
+  },
+	"license": [
+{
+	"type": "MIT",
+	"url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+}
   "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "eslint": "^3.5.0",
-    "mocha": "^3.0.2",
-    "nyc": "^8.3.0"
+	"eslint": "^3.5.0",
+	"mocha": "^3.0.2",
+	"mocha-lcov-reporter": "^1.2.0",
+	"nyc": "^8.3.0"
   }
 }
