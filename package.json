@@ -1,7 +1,7 @@
 {
   "name": "zodiac-sign",
   "version": "1.1.0",
-  "description": "",
+  "description": "=========",
   "main": "src/zodiac.js",
   "devDependencies": {
     "eslint": "^3.6.0",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,17 @@
   "bugs": {
     "url": "https://github.com/uplinkhacker1992/Zodiac-Sign/issues"
   },
-  "homepage": "https://github.com/uplinkhacker1992/Zodiac-Sign#readme"
+  "homepage": "https://github.com/uplinkhacker1992/Zodiac-Sign#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "blanket": "^1.2.3",
+    "coveralls": "^2.11.14",
+    "istanbul": "^0.4.5",
+    "eslint": "^3.6.0",
+    "mocha-lcov-reporter": "^1.2.0",
+    "nyc": "^8.3.0"
+  }
 }
