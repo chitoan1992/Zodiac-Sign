@@ -1,4 +1,4 @@
-var zodiac = require('../src/zodiac')
+const zodiac = require('../src/Zodiac')
 var expect = require('chai').expect;
 describe('Zodiac Sign:', (done) => {
     describe('getZodiac:', (done) => {
