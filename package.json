@@ -2,7 +2,7 @@
   "name": "zodiac-sign",
   "version": "1.1.0",
   "description": "=========",
-  "main": "src/zodiac.js",
+  "main": "index.js",
   "devDependencies": {
     "eslint": "^3.6.0",
     "blanket": "^1.2.3",
