@@ -21,9 +21,6 @@
     "url": "https://github.com/uplinkhacker1992/Zodiac-Sign/issues"
   },
   "homepage": "https://github.com/uplinkhacker1992/Zodiac-Sign#readme",
-  "directories": {
-    "test": "test"
-  },
   "devDependencies": {
     "mocha": "^3.0.2",
 	"blanket": "^1.2.3",
