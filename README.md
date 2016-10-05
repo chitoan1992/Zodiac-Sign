@@ -28,4 +28,4 @@ ToanDTC
 
 # * 1.0.0 Initial release
 
-# * 1.1.0 Update new features
+# * 1.1.0 Update new version
